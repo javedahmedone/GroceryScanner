@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DOXd+P69GfRsSL9mAgZYt4gWPiELWUBiTUlE1sX749y/LQmJ4R0yTryJOMfdEMucqCsIvmwLnB6gMP2fHzVR5g==",
+  "dgSpecHash": "jdjbzoNCSR8+5EgY2kzEzm2lGu32S3iL38/H4QMi+mjny+wp4h4skzjUEz8EzNg6kDkeGRozPFH7/plDIA6OPg==",
   "success": true,
   "projectFilePath": "C:\\Project\\GroceryScanner\\GroceryBackend\\GroceryScanner\\GroceryScanner.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\s.b.parveen\\.nuget\\packages\\confluent.kafka\\2.8.0\\confluent.kafka.2.8.0.nupkg.sha512",
+    "C:\\Users\\s.b.parveen\\.nuget\\packages\\confluent.kafka\\2.9.0\\confluent.kafka.2.9.0.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\htmlagilitypack.netcore\\1.5.0.1\\htmlagilitypack.netcore.1.5.0.1.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\librdkafka.redist\\2.8.0\\librdkafka.redist.2.8.0.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -81,3 +81,6 @@ C:\Project\GroceryScanner\GroceryScanner\obj\Debug\net8.0\refint\GroceryScanner.
 C:\Project\GroceryScanner\GroceryScanner\obj\Debug\net8.0\GroceryScanner.pdb
 C:\Project\GroceryScanner\GroceryScanner\obj\Debug\net8.0\GroceryScanner.genruntimeconfig.cache
 C:\Project\GroceryScanner\GroceryScanner\obj\Debug\net8.0\ref\GroceryScanner.dll
+C:\Project\GroceryScanner\GroceryBackend\GroceryScanner\obj\Debug\net8.0\GroceryScanner.dll
+C:\Project\GroceryScanner\GroceryBackend\GroceryScanner\obj\Debug\net8.0\refint\GroceryScanner.dll
+C:\Project\GroceryScanner\GroceryBackend\GroceryScanner\obj\Debug\net8.0\GroceryScanner.pdb

@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
             "HtmlAgilityPack.NetCore": {
               "target": "Package",
               "version": "[1.5.0.1, )"
@@ -190,7 +194,7 @@
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
-              "version": "[2.8.0, )"
+              "version": "[2.9.0, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
