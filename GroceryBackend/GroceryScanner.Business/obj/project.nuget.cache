@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zQQxtkwEBZxC3s14yjGw0tQ6z75rCJ5nx7VvX5Hb4strXUD5pMaF4SCqufkttSbeVeEUtbqtDYJneOeIKuLK4A==",
+  "dgSpecHash": "ckIli0B1apq9VC80G8m1jMQWIxg7utGk19oTGwDNiVKk62CtibuMdcf8aTUeMJMoNOeoTscjF0huYee1hu3ppQ==",
   "success": true,
   "projectFilePath": "C:\\Project\\GroceryScanner\\GroceryBackend\\GroceryScanner.Business\\GroceryScanner.Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\s.b.parveen\\.nuget\\packages\\confluent.kafka\\2.9.0\\confluent.kafka.2.9.0.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\htmlagilitypack.netcore\\1.5.0.1\\htmlagilitypack.netcore.1.5.0.1.nupkg.sha512",
+    "C:\\Users\\s.b.parveen\\.nuget\\packages\\librdkafka.redist\\2.8.0\\librdkafka.redist.2.8.0.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.2\\microsoft.extensions.configuration.9.0.2.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.2\\microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\s.b.parveen\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.2\\microsoft.extensions.configuration.binder.9.0.2.nupkg.sha512",
