@@ -49,7 +49,8 @@ builder.Services.AddSingleton<IProducer<string, string>>(serviceProvider =>
 
     return new ProducerBuilder<string, string>(producerConfig).Build();
 });
-
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+builder.WebHost.UseUrls($"http://*:{port}");
 builder.Services.AddHttpClient<IPlaceService, PlaceService>();
 
 builder.Services.AddControllers();
