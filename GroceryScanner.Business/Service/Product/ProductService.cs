@@ -1,16 +1,19 @@
 ﻿using System.Text.Json;
 using Confluent.Kafka;
 using GroceryScanner.Business.Service.Product;
+using Microsoft.Extensions.Configuration;
 
 public class ProductService : IProductService
 {
     private readonly HttpClient _httpClient;
-    private readonly IProducer<Null, string> _kafkaProducer;
-    private const string Topic = "search-queries";
-    public ProductService(HttpClient httpClient, IProducer<Null, string> kafkaProducer)
+    private readonly IProducer<string, string> _producer;
+    private readonly string _topic;
+
+    public ProductService(HttpClient httpClient, IProducer<string, string> producer, IConfiguration configuration)
     {
         _httpClient = httpClient;
-        _kafkaProducer = kafkaProducer;
+        _producer = producer;
+        _topic = configuration["Kafka:Topic"]!;
     }
 
     public async Task<object> GetProductDetailAsync(string searchItem, string latitude, string longitude, string queryType)
@@ -21,7 +24,10 @@ public class ProductService : IProductService
 
         HttpResponseMessage response = await _httpClient.GetAsync(url);
         response.EnsureSuccessStatusCode();
-        await _kafkaProducer.ProduceAsync(Topic, new Message<Null, string> { Value = searchItem });
+       
+
+        //await _kafkaProducer.ProduceAsync(Topic, new Message<Null, string> { Value = searchItem });
+        var result = await _producer.ProduceAsync(_topic, new Message<string, string> {  Value = searchItem });
 
 
         string json = await response.Content.ReadAsStringAsync();

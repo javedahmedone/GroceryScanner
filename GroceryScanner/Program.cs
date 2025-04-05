@@ -7,18 +7,6 @@ using GroceryScanner.Business.Service.Product;
 var builder = WebApplication.CreateBuilder(args);
 
 
-// Add services to the container.
-//builder.Services.AddCors(options =>
-//{
-//    options.AddPolicy("AllowLocalhost",
-//        policy =>
-//        {
-//            policy.WithOrigins("http://localhost:4200") // Allow frontend
-//                  .AllowAnyMethod() // Allow all HTTP methods (GET, POST, etc.)
-//                  .AllowAnyHeader() // Allow all headers
-//                  .AllowCredentials(); // Allow cookies/auth headers
-//        });
-//});
 
 builder.Services.AddCors(options =>
 {
@@ -33,7 +21,6 @@ builder.Services.AddCors(options =>
 var kafkaConfig = new ProducerConfig { BootstrapServers = "localhost:9092" }; // Change if needed
 
 // Register Kafka Producer
-builder.Services.AddSingleton<IProducer<Null, string>>(new ProducerBuilder<Null, string>(kafkaConfig).Build());
 
 
 builder.Services.AddHttpClient<IProductService, ProductService>()
@@ -47,6 +34,21 @@ builder.Services.AddHttpClient<IProductService, ProductService>()
             }
         };
     });
+
+builder.Services.AddSingleton<IProducer<string, string>>(serviceProvider =>
+{
+    var config = builder.Configuration;
+    var producerConfig = new ProducerConfig
+    {
+        BootstrapServers = config["Kafka:BootstrapServers"],
+        SaslUsername = config["Kafka:Username"], // Optional if not using SASL
+        SaslPassword = config["Kafka:Password"],
+        SecurityProtocol = SecurityProtocol.SaslSsl,
+        SaslMechanism = SaslMechanism.Plain
+    };
+
+    return new ProducerBuilder<string, string>(producerConfig).Build();
+});
 
 builder.Services.AddHttpClient<IPlaceService, PlaceService>();
 

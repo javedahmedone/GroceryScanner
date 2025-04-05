@@ -83,3 +83,5 @@
 /GroceryScanner.Business/obj/project.assets.json
 /GroceryScanner/obj/Debug/net8.0/GroceryScanner.assets.cache
 /GroceryScanner/obj/Debug/net8.0/GroceryScanner.csproj.FileListAbsolute.txt
+*.dll
+/GroceryScanner/bin/Debug/net8.0/selenium-manager/linux/selenium-manager
