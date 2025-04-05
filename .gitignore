@@ -67,3 +67,8 @@
 /GroceryBackend/GroceryScanner/bin/Debug/net8.0/GroceryScanner.Domain.pdb
 /GroceryBackend/GroceryScanner/bin/Debug/net8.0/GroceryScanner.exe
 /GroceryBackend/GroceryScanner/bin/Debug/net8.0/GroceryScanner.pdb
+*.config
+*.props
+/GroceryBackend/GroceryScanner/obj/GroceryScanner.csproj.nuget.dgspec.json
+*.targets
+/GroceryBackend/GroceryScanner/obj/project.assets.json
