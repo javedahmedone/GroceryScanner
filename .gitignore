@@ -72,3 +72,14 @@
 /GroceryBackend/GroceryScanner/obj/GroceryScanner.csproj.nuget.dgspec.json
 *.targets
 /GroceryBackend/GroceryScanner/obj/project.assets.json
+*.cache
+/GroceryScanner.Business/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+/GroceryScanner.Business/obj/Debug/net8.0/GroceryScanner.Business.AssemblyInfo.cs
+/GroceryScanner.Business/obj/Debug/net8.0/GroceryScanner.Business.csproj.BuildWithSkipAnalyzers
+/GroceryScanner.Business/obj/Debug/net8.0/GroceryScanner.Business.csproj.FileListAbsolute.txt
+/GroceryScanner.Business/obj/Debug/net8.0/GroceryScanner.Business.GeneratedMSBuildEditorConfig.editorconfig
+/GroceryScanner.Business/obj/Debug/net8.0/GroceryScanner.Business.GlobalUsings.g.cs
+/GroceryScanner.Business/obj/GroceryScanner.Business.csproj.nuget.dgspec.json
+/GroceryScanner.Business/obj/project.assets.json
+/GroceryScanner/obj/Debug/net8.0/GroceryScanner.assets.cache
+/GroceryScanner/obj/Debug/net8.0/GroceryScanner.csproj.FileListAbsolute.txt
