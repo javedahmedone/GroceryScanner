@@ -10,3 +10,8 @@ obj/
 .vs/
 bin/
 obj/
+
+**/bin/
+**/obj/
+**/debug/
+**/Debug/
