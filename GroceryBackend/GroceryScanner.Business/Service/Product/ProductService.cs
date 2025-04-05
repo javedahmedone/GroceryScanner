@@ -21,6 +21,8 @@ public class ProductService : IProductService
 
         HttpResponseMessage response = await _httpClient.GetAsync(url);
         response.EnsureSuccessStatusCode();
+        await _kafkaProducer.ProduceAsync(Topic, new Message<Null, string> { Value = searchItem });
+
 
         string json = await response.Content.ReadAsStringAsync();
         return JsonSerializer.Deserialize<object>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true })!;

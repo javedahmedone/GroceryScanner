@@ -29,16 +29,6 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader());
 });
 
-//builder.Services.AddHttpClient<IProductService, ProductService>();
-
-//builder.Services.AddHttpClient<IProductService, ProductService>()
-//    .ConfigurePrimaryHttpMessageHandler(() =>
-//    {
-//        return new HttpClientHandler
-//        {
-//            ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
-//        };
-//    });
 
 var kafkaConfig = new ProducerConfig { BootstrapServers = "localhost:9092" }; // Change if needed
 
@@ -68,7 +58,6 @@ builder.Services.AddSwaggerGen();
 
 
 var app = builder.Build();
-//app.UseCors("AllowLocalhost"); // Apply CORS policy
 app.UseCors("AllowAll");
 
 
