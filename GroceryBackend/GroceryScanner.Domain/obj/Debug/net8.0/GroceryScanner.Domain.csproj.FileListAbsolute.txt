@@ -1,0 +1,11 @@
+C:\Project\GroceryScanner\GroceryScanner.Domain\bin\Debug\net8.0\GroceryScanner.Domain.deps.json
+C:\Project\GroceryScanner\GroceryScanner.Domain\bin\Debug\net8.0\GroceryScanner.Domain.dll
+C:\Project\GroceryScanner\GroceryScanner.Domain\bin\Debug\net8.0\GroceryScanner.Domain.pdb
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\GroceryScanner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\GroceryScanner.Domain.AssemblyInfoInputs.cache
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\GroceryScanner.Domain.AssemblyInfo.cs
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\GroceryScanner.Domain.csproj.CoreCompileInputs.cache
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\GroceryScanner.Domain.dll
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\refint\GroceryScanner.Domain.dll
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\GroceryScanner.Domain.pdb
+C:\Project\GroceryScanner\GroceryScanner.Domain\obj\Debug\net8.0\ref\GroceryScanner.Domain.dll

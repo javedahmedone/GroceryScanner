@@ -1,0 +1,12 @@
+# Ignore build & user-specific files
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+.vs/
+bin/
+obj/

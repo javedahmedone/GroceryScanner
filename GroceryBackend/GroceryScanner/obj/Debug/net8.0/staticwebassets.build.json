@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8FA2wBKbWncNrL0pXAUjjQVpxS2ay69pkOSA7vTTIyo=",
+  "Source": "GroceryScanner",
+  "BasePath": "_content/GroceryScanner",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
